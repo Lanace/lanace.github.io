@@ -9,7 +9,6 @@
 title: Lanace 개발블로그
 email: lanace93@gmail.com
 description: > # 평소에 공부하고 있는것들을 기록으로 남기기 위해 만들었습니다. 부족한 부분도 많으니 잘 부탁드립니다.
-baseurl: "https://lanace.github.io/" # the subpath of your site, e.g. /blog
 url: "https://lanace.github.io/" # the base hostname & protocol for your site
 twitter_username: lanace
 github_username:  lanace
