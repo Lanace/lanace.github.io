@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-11-25 11:02:20 -0800
-categories: jekyll update
----
-오늘 SQLD 자격증 시험을 보고왔습니다.
-SQLD는 ~~~~
