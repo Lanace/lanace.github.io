@@ -1,10 +1,10 @@
 {
-  "name": "skinny-bones-jekyll",
-  "version": "1.0.0",
+  "name": "lanace",
+  "version": "1.0.1",
   "private": true,
-  "description": "A Jekyll starter site",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mademistakes.com/",
+  "description": "lanace blog",
+  "author": "Jeon ilju <lanace93@gmail.com>",
+  "homepage": "https://lanace.github.io/",
   "license": "The MIT License (MIT)",
   "devDependencies": {
     "grunt": "~0.4.2",
