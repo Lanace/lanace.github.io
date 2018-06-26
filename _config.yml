@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "Lanace Blog"
+description: "Android, iOS, Web devloper"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
+locale: ko_kr
 url:
 feed:
   path: atom.xml
@@ -26,15 +26,15 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
+  name: Ilju Jeon
+  email: lanace93@gmail.com
   twitter:
   google:
-    ad-client:
+    ad-client: '600-760-7493'
     ad-slot:
   bio:
   avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+  disqus-shortname: lanace
 
 
 include:

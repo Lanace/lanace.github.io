@@ -2,20 +2,12 @@
 
 - title: About
   url: /about/
-  excerpt: "About for me."
-  image: 400x250.gif
 
 - title: Articles
   url: /articles/
-  excerpt: "My articles"
-  image: 400x250.gif
 
 - title: Media
   url: /media/
-  excerpt: "Media for me."
-  image: 400x250.gif
 
 - title: History
   url: /history/
-  excerpt: "History for me."
-  image: 400x250.gif
