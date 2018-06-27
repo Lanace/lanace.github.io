@@ -15,7 +15,7 @@
   excerpt: "Media for me."
   image: 400x250.gif
 
-- title: History
-  url: /history/
-  excerpt: "History for me."
+- title: Projects
+  url: /projects/
+  excerpt: "My Projects."
   image: 400x250.gif
