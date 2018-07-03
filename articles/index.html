@@ -18,8 +18,10 @@ image:
   {% assign temp2 = paginator.per_page | times: temp1 %}
   {% assign temp3 = temp2 | plus: index %}
 
-  {% assign post = site.categories.articles[temp3] %} 
-  {% include post-grid.html %} 
+  {% assign post = site.categories.articles[temp3] %}
+  {% if post.title %}
+    {% include post-grid.html %}
+  {% endif %}
 {% endfor%}
 
 </div><!-- /.tiles -->
@@ -27,14 +29,12 @@ image:
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
+    <a href="{{ paginator.previous_page_path }}" class="previous">이전</a>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  
+  <!-- <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
+  
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
+    <a href="{{ paginator.next_page_path }}" class="next">다음</a>
   {% endif %}
 </div>
