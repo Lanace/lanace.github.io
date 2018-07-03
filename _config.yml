@@ -22,7 +22,10 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
 
+paginate: 8
+paginate_path: "articles/:num"
 
 # Site owner
 owner:
