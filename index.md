@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "2017년 6월 근황"
+title: "2017년 7월 근황"
 image:
   feature: header_image.png
 ---
@@ -10,7 +10,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">블로그 오픈</h2>
-  <p class="post-excerpt">T-story, Blogger 등을 돌아다니며 정착하지 못했었는데 드디어 github page에 정착하려고 합니다. 이번엔 좀 꾸준히 했으면 좋겠네요.</p>
+  <p class="post-excerpt">Tstory, Blogger 등을 돌아다니며 정착하지 못했었는데 드디어 github page에 정착하려고 합니다. 이번엔 좀 꾸준히 했으면 좋겠네요.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
