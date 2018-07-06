@@ -3,9 +3,13 @@ layout: article
 title: "SEO 정리"
 categories: articles
 modified: 2016-06-01T16:28:11-04:00
-tags: [git]
+tags: [seo, web]
 comments: true
 ads: true
+image:
+  feature: seo_cover.jpg
+  teaser: seo_feature.jpg
+  thumb: seo_feature.jpg
 ---
 
 # SEO 정리

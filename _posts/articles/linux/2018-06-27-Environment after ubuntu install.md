@@ -7,9 +7,9 @@ tags: [linux]
 comments: true
 ads: true
 image:
-  feature: 1600x800.gif
-  teaser: 400x250.gif
-  thumb: 400x250.gif
+  feature: ubuntu.jpg
+  teaser: ubuntu_desktop.png
+  thumb: ubuntu.jpg
 ---
 
 # ubuntu 설치 후 환경설정 할것들

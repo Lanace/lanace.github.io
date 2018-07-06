@@ -6,6 +6,10 @@ modified: 2016-06-01T16:28:11-04:00
 tags: [docker]
 comments: true
 ads: true
+image:
+  feature: docker_cover2.png
+  teaser: docker_cover.png
+  thumb: docker_cover.png
 ---
 
 # Docker 실습 (2)

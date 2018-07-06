@@ -6,6 +6,10 @@ modified: 2016-06-01T16:28:11-04:00
 tags: [git]
 comments: true
 ads: true
+image:
+  feature: git_github.jpg
+  teaser: git_github.jpg
+  thumb: git_github.jpg
 ---
 
 Git을 설치하고 사용하기 전에 Git이 무엇인지에 대해서 먼저 알아보자

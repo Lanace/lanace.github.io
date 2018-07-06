@@ -6,6 +6,10 @@ modified: 2016-07-05
 tags: [kotlin]
 comments: true
 ads: true
+image:
+  feature: kotlin.png
+  teaser: kotlin.png
+  thumb: kotlin.png
 ---
 
 ## 기본 문법
@@ -70,7 +74,7 @@ class Test {
 }
 ```
 
-### laze vs 
+### laze vs lateinit
 
 #### laze
 
@@ -162,4 +166,5 @@ class Sample(val name: String, val age: Int = 0) {
 
 Class 내부에 새로운 Class를 생성
 - 앞에 inner 키워드를 붙이면 됨 
-- 
+
+'

@@ -6,6 +6,10 @@ modified: 2016-07-03
 tags: [js, cross browser]
 comments: true
 ads: true
+image:
+  feature: crossbrowsing.png
+  teaser: crossbrowsing.png
+  thumb: crossbrowsing.png
 ---
 
 ## document.getElementByName 
@@ -13,19 +17,25 @@ ads: true
 [document.getElementByName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName) 는 Dom에서 name속성으로 원하는 element를 가져올 수 있다.
 스팩상 `__proto__`가 `NodeList`인 형태로 값을 가져오는데 `IE`와 `Edge`에서는 Object로 가져오는것을 확인할 수 있다.
 
-<IE에서의 document.getElementByName __proto__ 이미지>
+![IE에서의 document.getElementByName __proto__ 이미지](/images/getElementByName_proto_ie.png)
 
-<Edge에서의 document.getElementByName __proto__ 이미지>
+- IE에서의 document.getElementByName __proto__ 이미지
 
-<Chrome에서의 document.getElementByName __proto__ 이미지>
+- Edge에서의 document.getElementByName __proto__ 이미지
+
+![IE에서의 document.getElementByName __proto__ 이미지](/images/getElementByName_proto_chrom.png)
+
+- Chrome에서의 document.getElementByName __proto__ 이미지
 
 따라서 이렇게 `getElementByName`으로 가져온 값을 forEach하려 할때 브라우져별로 동일하게 동작하지 않을 수 있다.
 
+가능하면 기본적인 `for`문을 사용하거나, `foreach`나 `for in` 을 사용하려면 강제로 형변환이 필요하다.
+
+하지만 하위 브라우저나 여러 다양한 브라우저를 지원하기 위해서 기본적인 for문을 사용하는것이 가장 좋아보인다.
+
 ## new URL()
 
-[URL](https://developer.mozilla.org/en-US/docs/Web/API/URL#AutoCompatibilityTable) 은 
-
-보통 `URL`을 javascript에서 params를 얻어오기 위해서 사용하고 있었는데
+[URL](https://developer.mozilla.org/en-US/docs/Web/API/URL#AutoCompatibilityTable) 은 보통 `URL`을 javascript에서 params를 얻어오기 위해서 사용하고 있었는데
 아래와 같이 사용하고 있었다.
 
 ```javascript
@@ -175,3 +185,13 @@ if (!Array.prototype.includes) {
   });
 }
 ```
+
+## 정리
+
+아직 완벽하게 `ie`와 `chrome`을 지원하는건 아니지만 최소한 위에서 찾았던 문제점들에 대해서는 작업할때 참고해서 작업해야겠다.
+`chrome` 점유율이 점점 더 높아지고 있긴 한데, 아직 `edge`나 `ie`를 사용하는 사용자도 많다ㅠ ~언제쯤 갈아타실꺼죠!~ 
+여튼 신기술을 좋아하긴 하지만 이런 부분에서는 약간 단점도 있는것같다.
+
+적절하게 사용하는게 중요한듯...
+
+계속해서 버그 잡으면서 업데이트 해야겠다.

@@ -6,6 +6,10 @@ modified: 2016-06-01T16:28:11-04:00
 tags: [git]
 comments: true
 ads: true
+image:
+  feature: git_basic.png
+  teaser: git_basic.png
+  thumb: git_basic.png
 ---
 
 # Pro Git Study - Intro
