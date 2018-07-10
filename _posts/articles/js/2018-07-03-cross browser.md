@@ -86,6 +86,12 @@ window.location.hash = 'test=a&test2=b'
 console.log(getLocationParameters(window.location, 'both'))
 ```
 
+위 코드는 stackoverflow에서 가져온 코드이다. 당연한거지만 코드를 가져오더라도 어떻게 동작하는지, 내부적으로는 어떻게 돌아가는지 정도는 확인해보고 사용해야한다. 
+
+위 코드 에서 조금 이상해보이는 부분이 있는데 바로 `decodeUriComponentWithSpace` 함수이다. 이 함수는 `component.replace(/\+/g, '%20')` 하고 있는것을 볼 수 있는데 문자열에서 `+` 기호를 모두 %20으로 바꾼다는것이다. 
+이것이 의미하는게 무엇일까.
+
+
 ## URL.search
 
 [new URL()](#new URL()) 문제를 해결하고나니 연관된 이슈로 search params를 일부 수정해야되는 경우가 생겼다.
