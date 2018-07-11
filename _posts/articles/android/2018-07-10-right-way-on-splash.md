@@ -7,9 +7,9 @@ tags: [android]
 comments: true
 ads: true
 image:
-  feature: 
-  teaser: 
-  thumb: 
+  feature: android_common.jpg
+  teaser: android_common.jpg
+  thumb: android_common.jpg
 ---
 
 ## 시작하면서
