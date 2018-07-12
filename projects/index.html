@@ -1,19 +1,18 @@
 ---
-layout: article
+layout: archive
 title: "Projects"
 date: 2016-06-27
 modified: 2016-06-27
-excerpt: "My Projects"
+excerpt: "Develop log"
+tags: []
 image:
   feature:
   teaser:
   thumb:
-share: false
-ads: false
 ---
 
-<div class="tiles">
+<div class="projects">
 {% for post in site.categories.projects %}
-  {% include post-grid.html %}
+  {% include project-grid.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div>
