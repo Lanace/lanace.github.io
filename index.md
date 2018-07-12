@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "2017년 7월 근황"
+title: "Lanace의 Blog"
 image:
   feature: header_image.png
 ---
