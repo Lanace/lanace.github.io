@@ -7,18 +7,20 @@
     {% endif %}
   </a>
   
-  {% if project.date %}
-  <p class="entry-date date published">
-    <time datetime="{{ project.date | date: " %Y-%m-%d " }}" itemprop="datePublished">
-      {{ project.date | date: "%B %d, %Y" }}
-    </time>
-  </p>
-  {% endif %}
+  <div>
+    <h2 class="project-title" itemprop="name">
+      <a href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
+    </h2>
+    
+    {% if project.date %}
+    <p class="entry-date date published">
+      <time datetime="{{ project.date | date: " %Y-%m-%d " }}" itemprop="datePublished">
+        {{ project.date | date: "%B %d, %Y" }}
+      </time>
+    </p>
+    {% endif %}
 
-  <h2 class="project-title" itemprop="name">
-    <a href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
-  </h2>
-
-  <p class="project-excerpt" itemprop="description">{{ project.excerpt | strip_html | truncate: 160 }}</p>
+    <p class="project-excerpt" itemprop="description">{{ project.excerpt | strip_html | truncate: 160 }}</p>
+  </div>
 </article>
 <!-- /.tile -->

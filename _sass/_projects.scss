@@ -8,5 +8,15 @@
 
   .project {
     width: 100%;
+    display: flex;
+
+    .cover {
+      width: 100%;
+      height: 330px;
+    }
+
+    .project-teaser {
+      margin-right: 32px;
+    }
   }
 }
