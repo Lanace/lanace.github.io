@@ -8,7 +8,7 @@ excerpt: .Neters의 신입생 개인프로젝트로 진행
 tags: [Winfrom, C#]
 image:
   feature:
-  teaser:
+  teaser: 
   thumb:
 ---
 
