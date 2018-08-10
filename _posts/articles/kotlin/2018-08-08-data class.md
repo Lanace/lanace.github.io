@@ -7,8 +7,8 @@ tags: [kotlin, data class]
 comments: true
 ads: true
 image:
-  feature: 
-  teaser: 
+  feature: kotlin_banner2.png
+  teaser: kotlin_banner1.jpeg
   thumb: 
 ---
 
