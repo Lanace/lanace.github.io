@@ -4,12 +4,12 @@ title: TimeTabler 2.0
 date: 2012-06-01
 modified: 2012-06-01
 categories: projects
-excerpt: .Neters의 신입생 개인프로젝트로 진행
-tags: [Winfrom, C#]
+excerpt: 자신이 수강하길 원하는 강의를 복수 선택한 후, 선택된 강의들을 통해 만들 수 있는 시간표의 모든 경우의 수를 사용자에게 출력하여 보여준다.
+tags: [Windows Form, C#, Algorism]
 image:
-  feature:
-  teaser: 
-  thumb:
+  feature: timetabler_logo.png
+  teaser: timetabler_logo.png
+  thumb: timetabler_logo.png
 ---
 
 > 제작 기간: 12.06 ~ 12.08
@@ -54,5 +54,11 @@ image:
 ## 사용 기술
 
 ## 스크린샷
+
+![TimeTabler 스크린샷1](/images/timetabler1.png)
+
+![TimeTabler 스크린샷2](/images/timetabler2.png)
+
+![TimeTabler 스크린샷3](/images/timetabler3.png)
 
 ## 시연 영상

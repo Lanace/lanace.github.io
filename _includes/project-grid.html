@@ -1,5 +1,5 @@
 <article class="project" itemscope itemtype="http://schema.org/Article">
-  <a href="{{ site.url }}/{{ project.url }}" title="{{ project.title }}" class="project-teaser">
+  <a href="{{ project.url }}" title="{{ project.title }}" class="project-teaser">
     {% if project.image.teaser %}
       <img class="cover" src="{{ site.url }}/images/{{ project.image.teaser }}" alt="teaser" itemprop="image"> 
     {% else %}
@@ -9,7 +9,7 @@
   
   <div>
     <h2 class="project-title" itemprop="name">
-      <a href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
+      <a href="{{ project.url }}">{{ project.title }}</a>
     </h2>
     
     {% if project.date %}
