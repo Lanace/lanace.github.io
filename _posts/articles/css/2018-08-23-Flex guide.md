@@ -13,16 +13,17 @@ ads: true
 ## 개요
 
 `Flexbox layout`은 화면 구성을 좀더 효과적으로 제공하는것에 초점을 맞추고 있다. 
-컨테이너에서 item들 간에 `align`과 공간을 나누는것, 특히 크기를 알 수 없거나 동적인 경우에도 효율적인 레이아웃을 제공하길 원한다. 
+Container에서 item들 간에 정렬과 남는 공간을 나누는것, 특히 크기를 알 수 없거나 동적인 경우에도 효율적인 레이아웃을 제공하길 원한다.
 
 **그래서 `flex` 이다.**
 
 > `flex`의 원래 단어 뜻은 신축성, 유연성 이다. 즉, 유연하게 레이아웃을 만들어주겠다는 의지인것같다.
 
-`flex layout`에 대한 기본적인 생각은 item의 가로나 세로의 크기가 달라질때 빈 공간들을 채울 수 있는 능력을 갖춘 컨테이너를 제공하는것이다. (대부분 모든 크기의 디스플레이나 스크린 크기를 수용할 수 있도록 하는것이다.) 
-`flex container`는 빈공간을 확장하여 채울 수 있고, overflow를 막기위해 줄어들 수 있다.
+`Flex layout`에 대한 기본적인 생각은 item의 가로나 세로의 크기가 달라질때 빈 공간들을 채울 수 있는 능력을 갖춘 컨테이너를 제공하는것이다. 
+(대부분 모든 크기의 디스플레이나 스크린 크기를 수용할 수 있도록 하는것이다.)
+`Flex container`는 빈공간을 확장하여 채울 수 있고, overflow를 막기위해 줄어들 수 있다.
 
-가장 중요한건 `flexbox layout`은 기존에 있는 일반적인 레이아웃이랑은 조금 다른 사상을 가지고있다.
+가장 중요한건 `Flexbox layout`은 기존에 있는 일반적인 레이아웃이랑은 조금 다른 사상을 가지고있다.
 `block`은 수직적 기반을 둔 레이아웃이고, `inline`은 수평적 기반을 둔 레이아웃이다.
 그러한것들이 페이지에서 잘 동작하는 반면에 `block`이나 `inline`은 대규모나 복잡한 애플리케이션에 flexibility 하지 못하다.
 특히 방향을 바꾸거나, 크기를 조정하거나, 늘리거나 줄이는 등의 수정에는 좀 귀찮고 취약한점이 있다.
@@ -168,6 +169,8 @@ Flexbox는 단방향 레이아웃 개념을 갖고있다. 따라서 flex속성�
 
 단, 이 속성은 한줄에 있는 자식들에게는 영향을 주지 않는다. 여러 줄에 있을때만 영향을 줄 수 있다.
 
+![align content](//css-tricks.com/wp-content/uploads/2013/04/align-content.svg)
+
 ``` css
 .container {
   align-content: flex-start | flex-end | center | space-between | space-around | stretch;
@@ -190,6 +193,8 @@ Flexbox는 단방향 레이아웃 개념을 갖고있다. 따라서 flex속성�
 기본적으로, flex의 자식들은 dom에 작성된 순서대로 배치된다. 
 하지만 `order` 속성을 사용해서 flex container에서 몇번쨰로 위치할지 결정할 수 이싿.
 
+![order](//css-tricks.com/wp-content/uploads/2013/04/order-2.svg)
+
 ``` css
 .item {
   order: <integer>; /* default is 0 */
@@ -210,6 +215,8 @@ Flexbox는 단방향 레이아웃 개념을 갖고있다. 따라서 flex속성�
 다른 예로 하나의 자식만 `flex-grow`가 2로 설정되어있고 다른 자식들은 1로 설정되어있다면, 남은 공간은 2:1로 분배가 될것이다.
 
 즉, 비율로 설정이 되는것이다. 
+
+![flex grow](//css-tricks.com/wp-content/uploads/2014/05/flex-grow.svg)
 
 ``` css
 .item {
@@ -272,6 +279,8 @@ Flexbox는 단방향 레이아웃 개념을 갖고있다. 따라서 flex속성�
 `align-items`은 부모 container에서 모든 자식에게 정한 규칙이라면
 `align-self`는 자식 스스로가 자신의 규칙을 정하는것이다. 
 따라서 `align-self`의 우선순위가 더 높다
+
+![align self](//css-tricks.com/wp-content/uploads/2014/05/align-self.svg)
 
 ``` css
 .item {
