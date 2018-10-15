@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "왜 Fragment는 기본 생성자를 사용해야만 하는가?"
+title: ""
 categories: articles
 modified: 2018-08-14
 tags: [android, fragment]
