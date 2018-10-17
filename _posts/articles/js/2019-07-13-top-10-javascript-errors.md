@@ -1,4 +1,4 @@
-  ---
+---
 layout: article
 title: "Top-10-javascript-errors"
 categories: articles

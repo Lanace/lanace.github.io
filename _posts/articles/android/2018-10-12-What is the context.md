@@ -83,3 +83,9 @@ context가 처리해야할것보다 길게 살아있어야 하는걸 알았을 �
 대부분의 경우, context를 직접적으로 사용하는것은 현재 동작하고 있는곳 내부에서 호출하는것이 좋다.
 컨포넌트의 생명주기를 넘지 않는 선에서 참조하는것이 안전하다.
 Activity나 Service에 상관없이 Object에 Context를 저장시켜야 할 경우가 있다. 이럴땐 apllication context를 사용하자.
+
+
+## 참고
+
+http://arabiannight.tistory.com/entry/272: OS에 Process 관점에서의 Context를 바라보고, 왜 Context가 이런 형태를 띄게 되었는지에 대한 설명 
+https://medium.freecodecamp.org/mastering-android-context-7055c8478a22: 갓갓.... 그는 도덕책...
